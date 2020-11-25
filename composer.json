@@ -1,0 +1,20 @@
+{
+    "name": "quasilyte/kphp-batteries",
+    "description": "Unofficial package that provides some PHP functions that are not implemented in KPHP stdlib",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iskander Sharipov",
+            "email": "quasilyte@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "KPHP\\": "src/"
+        },
+        "files": ["bootstrap.php"]
+    }
+}
