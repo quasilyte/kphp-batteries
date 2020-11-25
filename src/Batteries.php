@@ -3,6 +3,15 @@
 namespace KPHP;
 
 class Batteries {
+    public static function trigger_error(string $error_msg, $error_type = 0) {
+        throw new \Exception($error_msg);
+    }
+
+    public static function extension_loaded(string $name): bool {
+        // TODO: return true for builtin extensions like "json".
+        return false;
+    }
+
     public static function reset(&$array) {
         if ($array) {
             return array_first_value($array);

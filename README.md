@@ -17,6 +17,8 @@ composer require quasilyte/kphp-batteries
 
 * Core functions
   * [`reset()`](https://www.php.net/manual/en/function.reset.php)
+  * [`trigger_error`](https://www.php.net/manual/en/function.trigger-error.php)
+  * [`extension_loaded`](https://www.php.net/manual/en/function.extension-loaded.php)
   * [`is_a()`](https://www.php.net/manual/en/function.is-a.php)
 
 * PHP8 functions
