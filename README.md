@@ -5,6 +5,12 @@ Unofficial package that provides some PHP functions that are not implemented in 
 **Disclaimer:** this is not a proper polyfill/library. This is merely an attempt to implement some PHP functions in terms of KPHP
 as close as possible to make more PHP projects compileable as KPHP programs.
 
+## Installation
+
+```
+composer require quasilyte/kphp-batteries
+```
+
 ## Function reference
 
 * Core functions
