@@ -12,6 +12,11 @@ if (!function_exists('str_starts_with')) {
         return Batteries::str_starts_with($haystack, $needle);
     }
 }
+if (!function_exists('str_ends_with')) {
+    function str_ends_with(string $haystack, string $needle): bool {
+        return Batteries::str_ends_with($haystack, $needle);
+    }
+}
 if (!function_exists('is_a')) {
     function is_a($object, string $class_name): bool {
         return Batteries::is_a($object, $class_name);

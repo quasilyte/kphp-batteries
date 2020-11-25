@@ -13,3 +13,4 @@ as close as possible to make more PHP projects compileable as KPHP programs.
 
 * PHP8 functions
   * `str_starts_with()`
+  * `str_ends_with()`
