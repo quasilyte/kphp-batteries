@@ -16,6 +16,9 @@ composer require quasilyte/kphp-batteries
 ## Function reference
 
 * Core functions
+  * [`getcwd`](https://www.php.net/manual/en/function.getcwd.php)
+  * [`join`](https://www.php.net/manual/en/function.join.php)
+  * [`pathinfo`](https://www.php.net/manual/en/function.pathinfo.php)
   * [`reset()`](https://www.php.net/manual/en/function.reset.php)
   * [`trigger_error`](https://www.php.net/manual/en/function.trigger-error.php)
   * [`extension_loaded`](https://www.php.net/manual/en/function.extension-loaded.php)
