@@ -19,11 +19,11 @@ composer require quasilyte/kphp-batteries
   * [`getcwd`](https://www.php.net/manual/en/function.getcwd.php)
   * [`join`](https://www.php.net/manual/en/function.join.php)
   * [`pathinfo`](https://www.php.net/manual/en/function.pathinfo.php)
-  * [`reset()`](https://www.php.net/manual/en/function.reset.php)
+  * [`reset`](https://www.php.net/manual/en/function.reset.php)
   * [`trigger_error`](https://www.php.net/manual/en/function.trigger-error.php)
   * [`extension_loaded`](https://www.php.net/manual/en/function.extension-loaded.php)
-  * [`is_a()`](https://www.php.net/manual/en/function.is-a.php)
+  * [`is_a`](https://www.php.net/manual/en/function.is-a.php)
 
 * PHP8 functions
-  * `str_starts_with()`
-  * `str_ends_with()`
+  * `str_starts_with`
+  * `str_ends_with`
